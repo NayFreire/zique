@@ -1,5 +1,13 @@
 body{
-    background-image: url('../images/wall.jpg');
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/headphone.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    right: 0;
+    bottom: 0;
 }  
 
 video{
