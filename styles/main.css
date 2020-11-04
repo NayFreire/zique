@@ -46,10 +46,6 @@ body, html{
     align-items: center;
 }
 
-.containerHeigh{
-    /* height: 50vh !important; */
-    /* margin-top: 40px; */
-}
 
 .centerContainer{
     display: flex;
