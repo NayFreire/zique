@@ -546,7 +546,7 @@ pre code {
 .container-md,
 .container-lg,
 .container-xl {
-  width: 100%;
+  width: 100vw;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -6807,11 +6807,11 @@ button.bg-dark:focus {
 }
 
 .border-right {
-  border-right: 1px solid #dee2e6 !important;
+  border-right: 1px solid #000 !important;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #000 !important;
 }
 
 .border-left {
