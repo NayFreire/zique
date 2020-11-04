@@ -22,8 +22,15 @@ body, html{
 }
 
 .divForm{
+    /* background-color: aqua; */
     margin-top: 50px;
     margin-bottom: 20px;
+}
+
+.backgForm{
+    /* background-color: rgb(34, 130, 255); */
+    padding: 10px;
+    border-radius: 7px;
 }
 
 .endDiv{
@@ -56,6 +63,7 @@ body, html{
 
 .labelForm{
     font-size: 1.6rem;
+    font-weight: bold;
 }
 
 .phrases{

@@ -2222,7 +2222,8 @@ textarea.form-control {
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;
-  color: #28a745;
+  /* color: #28a745; */
+  font-weight: bold;
 }
 
 .valid-tooltip {
@@ -2323,7 +2324,8 @@ textarea.form-control {
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;
-  color: #dc3545;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .invalid-tooltip {
