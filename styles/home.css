@@ -9,9 +9,10 @@ body, html{
 body{
     height: 100%; 
     width: 100%;
-    background-image: url('../images/headphone.jpeg');
+    background-image: url('../images/redBackground.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+

@@ -546,7 +546,7 @@ pre code {
 .container-md,
 .container-lg,
 .container-xl {
-  width: 100vw;
+  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -6616,8 +6616,9 @@ a.close.disabled {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px rgb(0, 0, 0);
+  text-align: left;
 }
 
 @-webkit-keyframes spinner-border {
