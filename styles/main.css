@@ -1,24 +1,24 @@
+html{
+    height: 100vh;
+}
 body, html{
-    height: 100%;
+    /* height: 100%; */
     margin: 0 auto;
     padding: 0;
     top: 0;
     left: 0;
 }
 
-.bg{
-    /* The image used */
+body{
     background-image: url('../images/yogaGirlOpacity.png');
-  
-    /* Full height */
-    height: 100%; 
-    width: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+}
+
+.bg{
+    height: calc(100%-54px) !important;
 }
 
 .divForm{
@@ -30,7 +30,7 @@ body, html{
 .backgForm{
     /* background-color: rgb(34, 130, 255); */
     padding: 10px;
-    border-radius: 7px;
+    /* border-radius: 7px; */
 }
 
 .endDiv{
@@ -45,13 +45,19 @@ body, html{
     padding-left: 50px;
     align-items: center;
     align-self: center;
+    justify-self: center;
 }
 
-
 .centerContainer{
+    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-self: center;
+}
+
+.marginTop{
+    margin-top: 5%;
 }
 
 .marginBtn{
@@ -92,11 +98,11 @@ body, html{
 }
 
 .outterContainer{
-    display: flex;
-    height: 91%;
+    /* display: flex; */
+    height: calc(100%-50px) !important;
     /* background-color: rgba(0, 0, 0, 0.4); */
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .btnCol{
@@ -109,4 +115,16 @@ body, html{
 
 .paddingRightOut{
     padding-right: 0 !important;
+}
+
+@media(max-width: 768px){
+    .divDisapear{
+        display: none;
+    }
+}
+
+@media(min-width: 320){
+    .backgForm{
+        padding: 0;
+    }
 }
