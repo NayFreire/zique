@@ -13,18 +13,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <title>Zique: ouça suas músicas favoritas</title>
+    <title>Zique: estudos online</title>
 </head>
 <body class="h-100">
-  <nav class="navbar navbar-expand-sm bg-dark justify-content-center sticky-top">
-    <a class="navbar-brand logo" href="#">ZIQUE</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">ZIQUE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./pages/aboutUs.html">Quem somos?</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Planos</a>
+        </li>
+      </ul>
+      <div>
+        <a href="#">Entrar</a>
+      </div>
+    </div>
   </nav>
+  <h2 class="title" style="text-align: center;">Venha conosco e aprenda!</h2>
   <div class="d-flex align-items-center justify-content-center h-75 marginTop">       
     <!-- <div class="outterContainer d-flex align-items-center justify-content-center"> -->
         <div class="container-fluid centerContainer">
             <div class="row divInContainer borderInContainer text-white">
                 <div class="divForm col-lg-4 backgForm">
                   <form action="#" class="needs-validation" novalidate>
+                    <div class="form-group">
+                      <label for="name" class="labelForm">Nome:</label>
+                      <input type="text" class="form-control" id="name" placeholder="Informe seu nome completo" name="name" required>
+                      <div class="valid-feedback">Válido</div>
+                      <div class="invalid-feedback">Por favor, preencha este campo</div>
+                    </div>
                     <div class="form-group">
                       <label for="uname" class="labelForm">Email:</label>
                       <input type="text" class="form-control" id="uname" placeholder="exemplo@email.com" name="uname" required>
@@ -45,15 +69,17 @@
                       </label>
                     </div>
                     <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                    <div class="row btnsRegLog">
-                      <div class="btnCol col-sm-6">
-                          <button type="submit" class="btn marginBtn bg-success btn-lg text-white" style="text-align: center;">
-                            <a href="./pages/home.html" style="color: #fff; text-decoration: none;">Entrar</a>
+                    <div class=" btnsRegLog">
+                      <div class="btnCol">
+                         <button type="submit" class="btn marginBtn bg-primary btn-lg btn-block text-white" style="text-align: center;">
+                            <a href="./pages/home.html" style="color: #fff; text-decoration: none;">Sou Aluno(a)</a>
                           </button>
                       </div>
-                      <div class="btnCol col-sm-6">
-                          <button type="submit" class="btn marginBtn bg-primary btn-lg text-white" style="text-align: center;">Cadastrar</button>
-                    </div>
+                      <div class="btnCol">
+                          <button type="submit" class="btn marginBtn bg-success btn-lg btn-block text-white" style="text-align: center;">
+                            <a href="./pages/home.html" style="color: #fff; text-decoration: none;">Sou professor(a)</a>
+                          </button>
+                      </div>
                   </div>
                   </form>
                 </div>
@@ -64,11 +90,11 @@
 
                 <div class="divForm col-lg-3 divDisapear" style="text-align: right;">
                     <div class="row phrases">
-                        <h3 style="font-weight: bold;">Escute suas músicas favoritas em qualquer lugar</h3>
+                        <h3 style="font-weight: bold;">Faça seu cadastro agora mesmo e comece seus estudos</h3>
                     </div>
                     <br><br>
                     <div class="row phrases phrases2">
-                        <h3 style="font-weight: bold;">Compartilhe suas músicas conosco e com seus amigos</h3>
+                        <h3 style="font-weight: bold;">Você é professor(a)? Aqui é o melhor lugar para ensinar</h3>
                     </div>
                 </div>
             </div>
