@@ -1,10 +1,29 @@
 body{
     background-image: none !important;
-    background-color: #fff;
+    background-color: rgb(153, 127, 245) !important;
 }
 
 
 .title{
-    color: #217408 !important;
+    color: #000000 !important;
     text-shadow: none;
+}
+
+.titleProposal{
+    color: #000000;
+    text-align: center;
+}
+
+.prices{
+    color: #f8cc07;
+    text-shadow: 2px 2px #000000;
+}
+
+.iconAttribute{
+    margin-bottom: 10px;
+}
+
+.attributeDescription{
+    margin-bottom: 0 !important;
+    margin-left: 20px;
 }
