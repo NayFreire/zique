@@ -18,5 +18,17 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
+.text1{
+    font-weight: 500 !important;
+    color: #ffc400;
+}
+
+.text2{
+    font-size: 1.5em !important;
+    font-weight: 500 !important;
+    color: rgb(15, 9, 1);
+    text-shadow: 2px 2px rgb(160, 157, 157) !important;
+}
 
