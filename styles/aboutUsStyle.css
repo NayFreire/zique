@@ -28,7 +28,17 @@ body{
 .text2{
     font-size: 1.5em !important;
     font-weight: 500 !important;
-    color: rgb(15, 9, 1);
-    text-shadow: 2px 2px rgb(160, 157, 157) !important;
+    color: rgb(255, 251, 247);
+    text-shadow: 2px 2px rgb(0, 0, 0) !important;
+}
+
+@media(max-width: 425px){
+    .resize1{
+        font-size: 1.6em !important;
+    }
+
+    .resize2{
+        font-size: 1em !important;
+    }
 }
 
