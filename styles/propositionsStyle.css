@@ -1,6 +1,6 @@
 body{
     background-image: none !important;
-    background-color: rgb(153, 127, 245) !important;
+    background-color: rgb(221, 221, 221) !important;
 }
 
 
@@ -17,16 +17,15 @@ body{
 
 .box{
     padding: 40px 40px;
-    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
-    background: rgb(13, 178, 228);
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.4);
+    background: #ffffff;
     height: 100%;
-    border-top: 4px solid #fff;
+    border-top: 4px solid #f4f7fa;
     border-radius: 5px;
 }
 
 .contrast{
     border-top: 4px solid #f8cc07 !important;
-    border: 2px solid #f8cc07;
 }
 
 .titleProposal{
@@ -35,8 +34,8 @@ body{
 }
 
 .prices{
-    color: #f8cc07;
-    text-shadow: 2px 2px #000000;
+    color: #626cf5;
+    text-shadow: 1px 1px #000000;
 }
 
 .iconAttribute{
@@ -46,4 +45,9 @@ body{
 .attributeDescription{
     margin-bottom: 0 !important;
     margin-left: 20px;
+    color: #000;
+}
+
+.btnChoice{
+    background-color: #626cf5;
 }
