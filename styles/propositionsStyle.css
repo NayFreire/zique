@@ -9,6 +9,12 @@ body{
     text-shadow: none;
 }
 
+.divProposals{
+    padding: 30px;
+    /* margin: 5px; */
+    border-radius: 10px;
+}
+
 .titleProposal{
     color: #000000;
     text-align: center;
