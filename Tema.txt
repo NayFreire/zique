@@ -1,0 +1,2 @@
+O tema do trabalho se trata de uma plataforma que conecta alunos e 
+professores para aulas online através de planos mensais.
