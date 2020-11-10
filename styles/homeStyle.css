@@ -1,0 +1,14 @@
+.secondSearchBar{
+    display: none;
+}
+/* 
+@media(max-width: 768px){
+    .divDisapear{
+        display: none;
+    }
+    
+    .title{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+} */
