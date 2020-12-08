@@ -1,6 +1,10 @@
 .secondSearchBar{
     display: none;
 }
+
+body{
+    background-image: none !important;
+}
 /* 
 @media(max-width: 768px){
     .divDisapear{
