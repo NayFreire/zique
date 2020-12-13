@@ -1,31 +1,44 @@
-.secondSearchBar{
-    display: none;
-}
 
 body{
     background-image: none !important;
 }
 
 .imgNewTeachers{    
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
 }
 
+.imgNewTeachers:hover{
+    border: 2px solid rgb(35, 180, 35);
+}
+
 .cardTeacher{
-    /* margin-left: 30px; */
+    margin-left: 30px;
     max-width: 320px !important;
+    min-height: 400px !important;
     border: 1px solid;
-    padding: 10px;
-    box-shadow: 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 25px !important;
+    border-top: 5px solid #4E73DF !important;
+    margin-top: 20px;
+}
+
+.cardTeacher:hover{
+    background-color: rgb(223, 223, 223);
+    border-top: 5px solid rgb(28, 180, 48) !important;
 }
 
 .cardTeacher a{
-    color: #000;
+    color: rgba(0, 0, 0, 0.692);
 }
 
 .cardTeacher a:hover{
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.cardTeacher h5{
+    text-align: center;
 }
 
 .firstCard{
