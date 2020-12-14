@@ -1,0 +1,108 @@
+* {box-sizing: border-box;}
+.list-dates {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  width: 100%;
+  list-style-type: none;
+}
+.list-dates li:first-child{
+  border-top-width: thin;
+  border-top-style: solid;
+}
+.list-dates li {
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  padding: 20px 10px;
+}
+.list-dates li:after {
+  clear: left;
+  content: ' ';
+  display: block;
+}
+.list-dates li span {
+  float: left;
+  background-color: transparent;
+}
+.list-dates .date {
+  width: 160px;
+  border-right: 1px solid #b6b6b6;
+  line-height: 20px;
+}
+.list-dates .location {
+  width: 289px;
+  padding-left: 10px;
+  float: left;
+  line-height: 20px;
+}
+.list-dates .location-information {
+  /* padding-left: 10px; */
+  display: none;
+  width: 410px;
+  position: relative;
+  top: -2px;
+  left: -289px;
+}
+.location-information.show {
+  display: block !important;
+}
+.info-frame {
+  float: left;
+  width: 48px;
+}
+.button-location-information {
+  border: none;
+  font-size: 16px;
+  width: 48px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+.list-dates .concert-actions {
+  line-height: 20px;
+  border-left: thin solid #b6b6b6;
+}
+.list-dates .concert-actions a {
+  display: inline-block;
+  width: 24px;
+  text-align: right;
+  color: #000;
+}
+.list-dates .concert-canceled {
+  text-decoration: line-through;
+}
+.list-dates .line-color-dark {
+  background-color: #f2f2f2;
+}
+.list-dates .line-color-light {
+  background: #fff;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.class{
+    margin-top: 10px;
+    padding: 15px 10px;
+    height: 280px;
+    border-top: 5px solid rgb(48, 106, 230) !important;
+}
+
+a{
+    text-decoration: none;
+    color: #000 !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.divBtn{
+    margin-top: 20px;
+}
+
+.divBtn a{    
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
