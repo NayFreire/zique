@@ -22,3 +22,11 @@
 .entregues{
     border-top: 5px solid rgb(55, 163, 28) !important;
 }
+
+
+@media(max-width: 425px){
+    .divColActivity{
+        margin-top: 10px;
+        justify-content: center;
+    }
+}
