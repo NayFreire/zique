@@ -18,8 +18,8 @@
 
     <title>Cadastro do Professor</title>
 </head>
-<body class="h-100" style="background-image: url('https://images.pexels.com/photos/4050415/pexels-photo-4050415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') !important;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body class="d-flex align-items-center justify-content-center" style="background-image: url(/images/signInTeacherBG.jpeg)!important;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand logo" href="../index.html">ZIQUE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,22 +36,60 @@
         </ul>
         </div>
     </nav>
-    <div class="h-100 d-flex justify-content-center align-items-center">       
-        <div class="container">
+    <div class="d-flex justify-content-center align-items-center">       
+        <div class="container-fluid" style="margin-top: 50px;">
             <h2 class="title" style="text-align: center; color: #ff782a !important; text-shadow: 2px 2px #000;">Cadastre-se e espalhe conhecimento</h2>
-            <div class="row text-white">
+            <div class="d-flex align-items-center justify-content-center row text-white">
                 <span class="col-lg-3"></span>
                 <div class="col-lg-6">
                     <form action="#" class="needs-validation" novalidate>
                         <div class="form-group">
+                          <label for="uname" class="labelForm">Nome Completo:</label>
+                          <input type="text" class="form-control" id="uname" name="uname" required>
+                          <div class="valid-feedback">Válido</div>
+                          <div class="invalid-feedback">Por favor, preencha este campo</div>
+                        </div>
+                        <div class="form-group">
                           <label for="uname" class="labelForm">Email:</label>
-                          <input type="text" class="form-control" id="uname" placeholder="exemplo@email.com" name="uname" required>
+                          <input type="email" class="form-control" id="email" name="email" required>
                           <div class="valid-feedback">Válido</div>
                           <div class="invalid-feedback">Por favor, preencha este campo</div>
                         </div>
                         <div class="form-group">
                           <label for="pwd" class="labelForm">Senha:</label>
                           <input type="password" class="form-control" id="pwd" placeholder="Informe sua senha" name="pswd" required>
+                          <div class="valid-feedback">Válido</div>
+                          <div class="invalid-feedback">Por favor, preencha este campo</div>
+                        </div>
+                        <div class="form-group">
+                          <label for="uname" class="labelForm">Assuntos que ensina</label>
+                          <br>
+                          <div class="checkListOp" style="margin-left: 20px;">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">Temas da Pré-escola</label>
+                            <br>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label" for="defaultCheck2">Temas do Ensino Fundamental I</label>
+                            <br>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                            <label class="form-check-label" for="defaultCheck1">Temas do Ensino Fundamental II</label>
+                            <br>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                            <label class="form-check-label" for="defaultCheck2">Temas do Ensino Médio</label>
+                            <br>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                            <label class="form-check-label" for="defaultCheck1">Temas da Ensino Superior</label>
+                            <br>
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                            <label class="form-check-label" for="defaultCheck2">Temas de Pós-graduação</label>
+                          </div>
+
+                          <div class="valid-feedback">Válido</div>
+                          <div class="invalid-feedback">Por favor, preencha este campo</div>
+                        </div>
+                        <div class="form-group">
+                          <label for="uname" class="labelForm">Descrição do que você ensina</label>
+                          <textarea name="descTemas" id="descTemas" cols="60" rows="5" placeholder="Ex.: Eu ensino matemática e física"></textarea>
                           <div class="valid-feedback">Válido</div>
                           <div class="invalid-feedback">Por favor, preencha este campo</div>
                         </div>

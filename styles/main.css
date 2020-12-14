@@ -1,5 +1,6 @@
 html{
     height: 100vh;
+    width: 100vw;
 }
 body, html{
     /* height: 100%; */
@@ -63,10 +64,6 @@ body{
     align-items: center;
     justify-content: center;
     justify-self: center;
-}
-
-.marginTop{
-    /* margin-top: .5%; */
 }
 
 .marginBtn{
@@ -136,6 +133,18 @@ body{
     }
 }
 
+@media(min-width: 768px){
+    .formTitle{
+        margin-top: 20px;
+    }
+}
+
+@media(min-width: 375px){
+    .formTitle{
+        margin-top: 180px;
+    }
+}
+
 @media(min-width: 320px){
     .centerContainer{        
         margin-top: 30px;
@@ -145,11 +154,16 @@ body{
     .backgForm{
         padding: 0;
     }
+
+    
 }
 
 @media(max-width: 320px){
     .title{
         margin-top: 20px;
         /* margin-bottom: 30px; */
+    }
+    .formTitle{
+        margin-top: 240px;
     }
 }

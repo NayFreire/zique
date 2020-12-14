@@ -50,14 +50,9 @@ body{
     margin-top: 20px;
 }
 
-/* 
-@media(max-width: 768px){
-    .divDisapear{
-        display: none;
+
+@media(max-width: 425px){
+    .col-lg-6{
+        max-width: 400px;
     }
-    
-    .title{
-        margin-top: 40px;
-        margin-bottom: 60px;
-    }
-} */
+}
