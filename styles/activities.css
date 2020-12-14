@@ -1,0 +1,19 @@
+.divActivity{
+    padding: 20px 10px;
+}
+.divCardActivity{    
+    border-top: 5px solid rgb(48, 106, 230) !important;
+    margin-top: 20px;
+}
+.divCardActivity a{
+    color: rgb(75, 75, 75) !important;
+}
+
+.divActivity a:hover{
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.entregues{
+    border-top: 5px solid rgb(55, 163, 28) !important;
+}
