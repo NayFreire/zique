@@ -1,0 +1,13 @@
+#descTemas{
+    width: 100%;
+}
+
+@media(max-width: 375px){
+    .title{
+        font-size:18pt;
+    }
+
+    .labelForm{
+        font-size: 16pt;
+    }
+}
