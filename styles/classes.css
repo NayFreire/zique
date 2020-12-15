@@ -88,12 +88,12 @@
     border-top: 5px solid rgb(48, 106, 230) !important;
 }
 
-a{
+.btn a{
     text-decoration: none;
     color: #000 !important;
 }
 
-a:hover{
+.btn a:hover{
     text-decoration: none !important;
 }
 
