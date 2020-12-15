@@ -218,58 +218,31 @@
 
             <!-- Begin Page Content -->
             <div class="container-fluid conteudo">
-                <h3 style="text-align: center;">Lista de Exercícios - Equações de 2º Grau</h3>
-
+                <h3 style="text-align: center;">Crie sua atividade aqui</h3>
                 
                 <div class="container">
                     <div class="row d-flex">
-                        <div class="col-sm-8 desc">
-                            <div class="teacherInfo d-flex align-items-center justify-content-start">
-                                <img class="teacherPic" src="/images/teachers/myTeachers/carlos.jpeg" alt="">
-                                <h5 style="margin-left: 10px;">Carlos Ribeiro</h5>
-                            </div>
-
-                            <p>Essa atividade diz respeito à última aula. Em caso de dúvidas, pode me mandar um e-mail. Responta duto que conseguir.
-                                No arquivo de respostas, por favor coloque:                    
-                            </p>
-                            <ul>
-                                <li>Nome completo</li>
-                                <li>Todas as respostas que conseguir, caso não consiga fazer tudo</li>
-                                <li>Todos os cálculos (respostas sem cálculos não serão consideradas)</li>
-                            </ul>
-                            <p>Obs.: Coloque todas as respostas em um arquivo .pdf. Em caso de soluções manuais, tire foto das respostas, coloque em um arquivo de texto e converta-o para .pdf</p>
-
-                            <div class="activityArchive">
-                                <a href="http://www.professorluisbarbosa.com.br/uploads/2/6/6/5/26650629/lista_3_equacao_grau_1_e_2.pdf" target="_blank">
-                                    <div class="d-flex align-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-check-fill" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zm1.354 4.354a.5.5 0 0 0-.708-.708L7.5 9.793 6.354 8.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                                        </svg>
-                                        <p style="margin: 0 10px;">Lista de Exercício</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-        
-                        <div class="col-sm-4 sendFile d-flex align-items-center justify-content-center">
-                            <div>
-                                <div>
-                                    <h5 style="text-align: center;">Envie Aqui o seu trabalho</h5>
-                                    <br>
-                                    <form action="">
-                                        <input type="file" name="" id="send" required>
-                                        <br>
-                                        <br>
-                                        <div class="d-flex align-items-center w-100">
-                                            <div class="btnCol w-100">
-                                                <input type="submit" class="w-100 btn bg-primary btn-lg btn-block text-white" style="text-align: center;" value="Enviar :D" required>   
-                                            </div>
-                                        </div>
-                                    </form>
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <form>
+                                <div class="form-group">
+                                    <label for="actName"><strong>Nome da atividade</strong></label> 
+                                    <input id="actName" type="text" class="form-control" placeholder="Ex.: Lista de Exercícios" required> 
                                 </div>
-                                
-                            </div>
+                                <div class="form-group">
+                                    <label for="actDate"><strong>Data de entrega</strong></label> <br>
+                                    <input id="actDate" type="date" class="form-control" placeholder="Insira a data no formato dd/mm/aaaa" required> <br>
+                                </div>
+                                <div class="form-group">
+                                    <label for="actDesc"><strong>Descrição da atividade</strong></label> <br>
+                                    <textarea id="actDesc" class="form-control" rows="6" required></textarea><br>
+                                </div>
+                                <div class="btnAct d-flex align-items-center justify-content-center">
+                                    <button type="submit" class="btn btn-primary">Enviar atividade</button>
+                                </div>
+                            </form>
                         </div>
+                        <div class="col-lg-2"></div>
                     </div>
                 </div>
             </div>

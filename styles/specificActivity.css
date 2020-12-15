@@ -8,18 +8,11 @@
     padding: 0 20px !important;
 }
 
-.desc{
-    /* background-color: brown; */
+.activityArchive a{
+    color: rgb(99, 99, 99);
 }
 
-#send{
-    /* background-color: chartreuse; */
-}
-
-.sendFile{
-    /* background-color: aqua; */
-}
-
-.btnSend{
-    /* background-color: green; */
+.activityArchive a:hover{
+    color: #000;
+    text-decoration: none;
 }
