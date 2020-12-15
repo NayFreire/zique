@@ -1,0 +1,25 @@
+.teacherPic{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.conteudo{
+    padding: 0 20px !important;
+}
+
+.desc{
+    /* background-color: brown; */
+}
+
+#send{
+    /* background-color: chartreuse; */
+}
+
+.sendFile{
+    /* background-color: aqua; */
+}
+
+.btnSend{
+    /* background-color: green; */
+}
