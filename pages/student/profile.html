@@ -6,21 +6,20 @@
 
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/sb-admin-2.min.css">
-    <link rel="stylesheet" href="../../styles/classes.css">
+    <link rel="stylesheet" href="../../styles/profile.css">
 
     <link rel="stylesheet" href="../../styles/bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
-    <script src="/styles/bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/js/classes.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <title>Zique: estudos online</title>
 </head>
-<body id="page-top" style="width: 100vw !important;">
+<body id="page-top">
 
   <!-- Page Wrapper -->
   <div id="wrapper">
@@ -182,12 +181,12 @@
 
                       <!-- Nav Item - User Information -->
                       <li class="nav-item dropdown no-arrow">
-                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Camila Paiva Ribeiro</span>
-                            <img class="img-profile rounded-circle"
-                            src="/images/teachers/myTeachers/me.jpeg">
-                        </a>
+                          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="mr-2 d-none d-lg-inline text-gray-600 small">Camila Paiva Ribeiro</span>
+                              <img class="img-profile rounded-circle"
+                                  src="/images/teachers/myTeachers/me.jpeg">
+                          </a>
                           <!-- Dropdown - User Information -->
                           <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                               aria-labelledby="userDropdown">
@@ -218,59 +217,71 @@
 
             <!-- Begin Page Content -->
             <div class="container-fluid">
-
-                <h3 style="text-align: center;">Suas Aulas</h3>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="class card d-flex align-items-center justify-content-center">                                
-                                <div>
-                                    <h4 style="margin-bottom: 10px; text-align: center;">Programação</h4>
-                                    <strong>Data:</strong> Seg, 21/12/2020 <br>
-                                    <strong>Horário:</strong> 15h e 30min <br>
-                                    <strong>Tema:</strong> Lógica de Programação <br>
-                                    <div class=" divBtn d-flex align-items-center justify-content-center">
-                                        <div class="btn btn-success">
-                                            <a href="meet.google.com/gjn-witd-wjq">Bora pra aula!</a>
-                                        </div> 
-                                    </div>    
-                                </div>
+                <div class="container w-100 p-3">
+                    <div class="row d-flex flex-wrap justify-content-center">
+                        <div class="col-lg-12 d-flex align-items-center justify-content-center">
+                            <div class="profilePic">
+                                <img class="picture" src="/images/teachers/myTeachers/me.jpeg" alt="">
+                                <h4 style="margin: 15px 0;">Camila Paiva Ribeiro</h4>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="class card d-flex align-items-center justify-content-center">   
-                                <div>
-                                    <h4 style="margin-bottom: 10px; text-align: center;">Música</h4>
-                                    <strong>Data:</strong> Ter, 22/12/2020 <br>
-                                    <strong>Horário:</strong> 14h e 30min <br>
-                                    <strong>Tema:</strong> Estudo de Escalas Musicais <br>
-                                    <div class=" divBtn d-flex align-items-center justify-content-center">
-                                        <div class="btn btn-success">
-                                            <a href="meet.google.com/gjn-witd-wjq">Bora pra aula!</a>
-                                        </div> 
-                                    </div>                                       
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="class card d-flex align-items-center justify-content-center">
-                                <div>
-                                    <h4 style="margin-bottom: 10px; text-align: center;" >Matemática</h4>
-                                    <strong>Data:</strong> Ter, 22/12/2020 <br>
-                                    <strong>Horário:</strong> 16h <br>
-                                    <strong>Tema:</strong> Funções Quadráticas <br>
-                                    <div class=" divBtn d-flex align-items-center justify-content-center">
-                                        <div class="btn btn-success">
-                                            <a href="meet.google.com/gjn-witd-wjq">Bora pra aula!</a>
-                                        </div> 
-                                    </div>    
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
+
+                    <div class="row d-flex flex-wrap justify-content-center">
+                        <div class="col-lg-2 d-flex"></div>
+                        <div class="col-lg-8">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h6>Assuntos</h6>
+                                    <h5>Matemática, Música e Programação</h5>
+                                </div>
+
+                                <div>
+                                    <h6>Data de Nascimento</h6>
+                                    <h5>05/09/1996</h5>
+                                </div>
+                            </div>    
+                            <br>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h6>Formação</h6>
+                                    <h5>Estudante de Engenharia da Computação</h5>
+                                </div>
+
+                                <div>
+                                    <h6>Cidade</h6>
+                                    <h5>Ouro Preto - MG</h5>
+                                </div>
+                            </div> 
+                            <br>
+                            
+                            <div>
+                                <h6 style="color: rgb(100, 100, 100);">Notas</h6>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="w-100 d-flex justify-content-between">
+                                    <div>
+                                        <h5 style="text-align: center;">Matemática</h5>
+                                        <h2 style="text-align: center;">9.5</h2>
+                                    </div>
+                                    <div>
+                                        <h5 style="text-align: center;">Músicas</h5>
+                                        <h2 style="text-align: center;">8.9</h2>
+                                    </div>
+                                    <div>
+                                        <h5 style="text-align: center;">Programação</h5>
+                                        <h2 style="text-align: center;">9.3</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 d-flex"></div>
+                    </div>
+
                 </div>
             </div>
+              <!-- /.container-fluid -->
 
           </div>
           <!-- End of Main Content -->

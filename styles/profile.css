@@ -1,0 +1,9 @@
+.picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.col-lg-8 .d-flex div h6{
+    color: rgb(100, 100, 100);
+}
